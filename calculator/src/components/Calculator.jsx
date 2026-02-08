@@ -44,11 +44,11 @@ export default function Calculator() {
     "AC",
     "C",
     "%",
-    "/",
+    "÷",
     "7",
     "8",
     "9",
-    "*",
+    "x",
     "4",
     "5",
     "6",
@@ -63,10 +63,10 @@ export default function Calculator() {
   ];
 
   return (
-    <div className="min-w-[320px] bg-black flex flex-col gap-4 p-4 rounded-2xl">
+    <div className=" shadow-2xl  min-w-[320px] bg-black flex flex-col gap-4 p-4 rounded-2xl">
       <div className="overflow-x-auto bg-[#141414] min-h-[100px] flex items-end justify-end  flex-col p-4 rounded-[10px]">
         <div
-          className={`${showResult ? "text-[1.7rem]" : "text-[1.2rem] tracking-[2px] flex-gap-[-5px] items-center text-[rgba(255,255,255,0.5)] justify-end"}`}
+          className={`${showResult ? "text-5xl" : "text-4xl tracking-[2px] flex-gap-[-5px] items-center text-[rgba(255,255,255,0.5)] justify-end"}`}
         >
           {display}
         </div>
@@ -76,7 +76,7 @@ export default function Calculator() {
           <Keys
             label={item}
             key={index}
-            keyClass={item === "EQUALS" && "equals"}
+            keyClass={item === "EQUALS"}
             onButtonClick={handleClick}
           />
         ))}
