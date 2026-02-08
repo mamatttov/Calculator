@@ -3,70 +3,40 @@
 📑 Table of Contents | Оглавление
 
 📸 Preview
-
 ✨ Features | Возможности
-
 🛠 Tech Stack | Стек
-
 📦 Installation | Установка
-
 📁 Project Structure | Структура
-
 ⚙️ How It Works | Как работает
 
-⚠️ Notes | Замечания
-
-🚀 Future Improvements | Идеи
-
-📸 Preview
-
-📷 Add a screenshot or GIF of the calculator here
-📷 Добавь сюда скриншот или GIF калькулятора
 
 ![Calculator Preview](./preview.png)
 
 ✨ Features | Возможности
 🇬🇧 English
-
 AC – clear all
-
 C – delete last character
-
 Basic operations: + - x ÷ %
-
 Input length limit (15 characters)
-
 Rounded result (up to 3 decimals)
-
 Error handling
-
 Responsive UI with Tailwind
 
 🇷🇺 Русский
-
 AC — очистить всё
-
 C — удалить последний символ
-
 Операции: + - x ÷ %
-
 Ограничение ввода (15 символов)
-
 Округление результата до 3 знаков
-
 Обработка ошибок
-
 Адаптивный интерфейс
 
 🛠 Tech Stack | Стек
-
 ⚛️ React
-
 🎨 Tailwind CSS
-
 🧠 JavaScript (Hooks)
-
 📦 Installation | Установка
+
 1️⃣ Clone repository | Клонировать репозиторий
 git clone https://github.com/USERNAME/react-calculator.git
 cd react-calculator
@@ -79,7 +49,6 @@ npm run dev
 
 
 или (Create React App):
-
 npm start
 
 📁 Project Structure | Структура
@@ -92,19 +61,11 @@ src/
 
 ⚙️ How It Works | Как работает
 Calculator.jsx
-
 Manages calculator state (display, showResult)
-
 Handles button clicks
-
 Calculates result using eval()
-
 Limits input length
-
 Keys.jsx
-
 Reusable button component
-
 Sends button value to calculator
-
 Special styling for EQUALS button
