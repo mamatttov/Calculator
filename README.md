@@ -9,7 +9,7 @@
 📁 Project Structure | Структура
 ⚙️ How It Works | Как работает
 
-✨ Features | Возможности
+## ✨Features | Возможности
 🇬🇧 English
 AC – clear all
 C – delete last character
